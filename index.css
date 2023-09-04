@@ -1,0 +1,76 @@
+/* PADRAO GERAL */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin-top: 80px;
+    border-radius: 4px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#Calculadora{
+    height: 650px;
+    width: 550px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'roboto', sans-serif;
+    color: white;
+    background-color: #363636;
+    padding: 10px;
+}
+
+#form{
+    height: 60%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: large;
+}
+
+#form label{
+    font-weight: lighter;
+}
+
+.dados{
+    border: 3px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 110%;
+    height: 8%;
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#maceracao{
+    background-color: aqua;
+    color: black;
+    padding-top: 1%;
+}
+
+#filtragem{
+    background-color: aquamarine;
+    color: black;
+    padding-top: 1%;
+}
+
+button{
+    width: 15%;
+    height: 6%;
+    font-weight: bold;
+    font-size: 80%;
+    border-radius: 8px;
+    border-color: gray;
+    background-color: white;
+}
